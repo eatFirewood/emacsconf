@@ -1,0 +1,202 @@
+(undo-tree-save-format-version . 1)
+"430897a1bf531b8f3df254fbbfbb3f74ce39ec75"
+[nil nil nil nil (26015 33903 25428 775000) 0 nil]
+([nil nil ((877 . 878) (t 26015 33861 66828 363000)) nil (26015 33903 25427 680000) 0 nil])
+([nil nil ((877 . 878)) nil (26015 33903 25426 947000) 0 nil])
+([nil nil ((1389 . 1429) (#("  " 0 2 (fontified nil ws-butler-chg chg)) . 1389) (nil rear-nonsticky nil 1570 . 1571) (nil fontified nil 878 . 1571) (878 . 1571)) nil (26015 33903 25425 433000) 0 nil])
+([nil nil ((#("(setq inhibit-startup-message t)
+
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+;; show unncessary whitespace that can mess up your diff
+(add-hook 'prog-mode-hook
+          (lambda () (interactive)
+            (setq show-trailing-whitespace 1)))
+
+;; use space to indent by default
+(setq-default indent-tabs-mode nil)
+
+;; set appearance of a tab that is represented by 4 spaces
+(setq-default tab-width 4)
+;; Compilation
+(global-set-key (kbd \"<f5>\") (lambda ()
+                               (interactive)
+                               (setq-local compilation-read-command nil)
+                               (call-interactively 'compile)))
+
+;; setup GDB
+(setq
+ ;; use gdb-many-windows by default
+ gdb-many-windows t
+
+ ;; Non-nil means display source file containing the main routine at startup
+ gdb-show-main t
+ )
+" 0 1 (fontified t) 1 5 (face font-lock-keyword-face fontified t) 5 35 (fontified t) 35 43 (face font-lock-keyword-face fontified t) 43 45 (fontified t) 45 56 (face font-lock-function-name-face fontified t) 56 69 (fontified t) 69 72 (face font-lock-comment-delimiter-face fontified t) 72 126 (face font-lock-comment-face fontified t) 126 163 (fontified t) 163 169 (face font-lock-keyword-face fontified t) 169 174 (fontified t) 174 185 (face font-lock-keyword-face fontified t) 185 200 (fontified t) 200 204 (face font-lock-keyword-face fontified t) 204 236 (fontified t) 236 239 (face font-lock-comment-delimiter-face fontified t) 239 270 (face font-lock-comment-face fontified t) 270 271 (fontified t) 271 283 (face font-lock-keyword-face fontified t) 283 307 (fontified t) 307 310 (face font-lock-comment-delimiter-face fontified t) 310 366 (face font-lock-comment-face fontified t) 366 367 (fontified t) 367 379 (face font-lock-keyword-face fontified t) 379 393 (fontified t) 393 396 (face font-lock-comment-delimiter-face fontified t) 396 408 (face font-lock-comment-face fontified t) 408 429 (fontified t) 429 435 (face font-lock-string-face fontified t) 435 438 (fontified t) 438 444 (face font-lock-keyword-face fontified t) 444 480 (fontified t) 480 491 (face font-lock-keyword-face fontified t) 491 525 (fontified t) 525 535 (face font-lock-keyword-face fontified t) 535 630 (fontified t) 630 633 (face font-lock-comment-delimiter-face fontified t) 633 643 (face font-lock-comment-face fontified t) 643 644 (fontified t) 644 648 (face font-lock-keyword-face fontified t) 648 650 (fontified t) 650 653 (face font-lock-comment-delimiter-face fontified t) 653 685 (face font-lock-comment-face fontified t) 685 707 (fontified t) 707 710 (face font-lock-comment-delimiter-face fontified t) 710 783 (face font-lock-comment-face fontified t) 783 803 (fontified t)) . -74) (undo-tree-id0 . -803) (undo-tree-id1 . -235) (undo-tree-id2 . -68) (undo-tree-id3 . -187) (undo-tree-id4 . -307) (undo-tree-id5 . -803) (undo-tree-id6 . -803) (undo-tree-id7 . -803) (undo-tree-id8 . -803) (undo-tree-id9 . -803) (undo-tree-id10 . -803) (undo-tree-id11 . -706) (undo-tree-id12 . -706) (undo-tree-id13 . -706) (undo-tree-id14 . -706) (undo-tree-id15 . -706) (undo-tree-id16 . -706) (undo-tree-id17 . -803) (undo-tree-id18 . -803) (undo-tree-id19 . -803) (undo-tree-id20 . -803) (undo-tree-id21 . -705) (undo-tree-id22 . -705) (undo-tree-id23 . -705) (undo-tree-id24 . -705) (undo-tree-id25 . -705) (undo-tree-id26 . -705) (undo-tree-id27 . -705) (undo-tree-id28 . -705) (undo-tree-id29 . -705) (undo-tree-id30 . -705) (undo-tree-id31 . -803) (undo-tree-id32 . -328) (undo-tree-id33 . -328) (undo-tree-id34 . -328) (undo-tree-id35 . -328) (undo-tree-id36 . -328) (undo-tree-id37 . -328) (undo-tree-id38 . -803) (undo-tree-id39 . -803) (undo-tree-id40 . -803) (undo-tree-id41 . -803) 877) nil (26015 33903 25421 822000) 0 nil])
+([nil nil ((75 . 77) (t 26015 33903 26827 350000)) nil (26015 33944 669538 235000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 877 . 878) (nil fontified nil 75 . 878) (75 . 878)) nil (26015 33944 669537 174000) 0 nil])
+([nil nil ((#("
+;; show unncessary whitespace that can mess up your diff
+(add-hook 'prog-mode-hook
+          (lambda () (interactive)
+            (setq show-trailing-whitespace 1)))
+
+;; use space to indent by default
+(setq-default indent-tabs-mode nil)
+
+;; set appearance of a tab that is represented by 4 spaces
+(setq-default tab-width 4)
+;; Compilation
+(global-set-key (kbd \"<f5>\") (lambda ()
+                               (interactive)
+                               (setq-local compilation-read-command nil)
+                               (call-interactively 'compile)))" 0 1 (fontified t ws-butler-chg chg) 1 4 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 4 58 (face font-lock-comment-face fontified t ws-butler-chg chg) 58 95 (fontified t ws-butler-chg chg) 95 101 (face font-lock-keyword-face fontified t ws-butler-chg chg) 101 106 (fontified t ws-butler-chg chg) 106 117 (face font-lock-keyword-face fontified t ws-butler-chg chg) 117 132 (fontified t ws-butler-chg chg) 132 136 (face font-lock-keyword-face fontified t ws-butler-chg chg) 136 168 (fontified t ws-butler-chg chg) 168 171 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 171 202 (face font-lock-comment-face fontified t ws-butler-chg chg) 202 203 (fontified t ws-butler-chg chg) 203 215 (face font-lock-keyword-face fontified t ws-butler-chg chg) 215 239 (fontified t ws-butler-chg chg) 239 242 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 242 298 (face font-lock-comment-face fontified t ws-butler-chg chg) 298 299 (fontified t ws-butler-chg chg) 299 311 (face font-lock-keyword-face fontified t ws-butler-chg chg) 311 325 (fontified t ws-butler-chg chg) 325 328 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 328 340 (face font-lock-comment-face fontified t ws-butler-chg chg) 340 361 (fontified t ws-butler-chg chg) 361 367 (face font-lock-string-face fontified t ws-butler-chg chg) 367 370 (fontified t ws-butler-chg chg) 370 376 (face font-lock-keyword-face fontified t ws-butler-chg chg) 376 412 (fontified t ws-butler-chg chg) 412 423 (face font-lock-keyword-face fontified t ws-butler-chg chg) 423 457 (fontified t ws-butler-chg chg) 457 467 (face font-lock-keyword-face fontified t ws-butler-chg chg) 467 560 (fontified t ws-butler-chg chg)) . 143) (undo-tree-id0 . -560) (undo-tree-id1 . -62) (undo-tree-id2 . -62) (undo-tree-id3 . -62) (undo-tree-id4 . -62) (undo-tree-id5 . -62) (undo-tree-id6 . -62) (undo-tree-id7 . -76) (undo-tree-id8 . -76) (undo-tree-id9 . -76) (undo-tree-id10 . -76) (undo-tree-id11 . -76) (undo-tree-id12 . -76) (undo-tree-id13 . -167) (undo-tree-id14 . -167) (undo-tree-id15 . -167) (undo-tree-id16 . -167) (undo-tree-id17 . -167) (undo-tree-id18 . -167) (undo-tree-id19 . -153) (undo-tree-id20 . -153) (undo-tree-id21 . -153) (undo-tree-id22 . -153) (undo-tree-id23 . -153) (undo-tree-id24 . -153) (undo-tree-id25 . -498) (undo-tree-id26 . -560) (undo-tree-id27 . -560) (undo-tree-id28 . -560) 703) nil (26015 33944 669533 773000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 702 . 703) (nil fontified nil 143 . 703) (143 . 703) (t 26015 33944 673493 6000)) nil (26015 33961 806515 492000) 0 nil])
+([nil nil ((#("
+;; setup GDB
+(setq
+ ;; use gdb-many-windows by default
+ gdb-many-windows t
+
+ ;; Non-nil means display source file containing the main routine at startup
+ gdb-show-main t
+ )
+" 0 1 (fontified t) 1 4 (face font-lock-comment-delimiter-face fontified t) 4 14 (face font-lock-comment-face fontified t) 14 15 (fontified t) 15 19 (face font-lock-keyword-face fontified t) 19 21 (fontified t) 21 24 (face font-lock-comment-delimiter-face fontified t) 24 56 (face font-lock-comment-face fontified t) 56 78 (fontified t) 78 81 (face font-lock-comment-delimiter-face fontified t) 81 154 (face font-lock-comment-face fontified t) 154 174 (fontified t)) . 704) (undo-tree-id0 . -174) (undo-tree-id1 . -27) (undo-tree-id2 . -27) (undo-tree-id3 . -27) (undo-tree-id4 . -27) (undo-tree-id5 . -27) (undo-tree-id6 . -27) (undo-tree-id7 . -174) (undo-tree-id8 . -174) (undo-tree-id9 . -174) (undo-tree-id10 . -174) 878) nil (26015 33961 806512 26000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 878 . 879) (nil fontified nil 705 . 879) (705 . 879) (t 26015 33961 806825 922000)) nil (26015 33996 954628 495000) 0 nil])
+([nil nil ((#("(add-hook 'prog-mode-hook
+          (lambda () (interactive)
+            (setq show-trailing-whitespace 1)))
+
+;; use space to indent by default
+(setq-default indent-tabs-mode nil)" 0 37 (fontified t) 37 43 (face font-lock-keyword-face fontified t) 43 48 (fontified t) 48 59 (face font-lock-keyword-face fontified t) 59 74 (fontified t) 74 78 (face font-lock-keyword-face fontified t) 78 110 (fontified t) 110 113 (face font-lock-comment-delimiter-face fontified t) 113 144 (face font-lock-comment-face fontified t) 144 145 (fontified t) 145 157 (face font-lock-keyword-face fontified t) 157 179 (fontified t)) . 201) (undo-tree-id0 . -179) (undo-tree-id1 . -179) (undo-tree-id2 . -179) (undo-tree-id3 . -179) (undo-tree-id4 . -179) (undo-tree-id5 . -179) (undo-tree-id6 . -179) (undo-tree-id7 . -179) (undo-tree-id8 . -179) (undo-tree-id9 . -179) (undo-tree-id10 . -179) (undo-tree-id11 . -179)) nil (26015 33996 954625 78000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 379 . 380) (nil fontified nil 201 . 380) (201 . 380) (t 26015 33996 956825 64000)) nil (26015 34022 917790 620000) 0 nil])
+([nil nil ((#("
+;; company
+(use-package company
+  :init
+  (global-company-mode 1)
+  (delete 'company-semantic company-backends))
+
+;; (define-key c-mode-map  [(control tab)] 'company-complete)
+;; (define-key c++-mode-map  [(control tab)] 'company-complete)
+
+;; Package: projejctile
+
+
+(use-package projectile
+  :init
+  (projectile-global-mode)
+  (setq projectile-enable-caching t))
+;; Package zygospore
+(use-package zygospore
+  :bind ((\"C-x 1\" . zygospore-toggle-delete-other-windows)
+         (\"RET\" .   newline-and-indent)))
+
+                                        ; automatically indent when press RET
+
+;; activate whitespace-mode to view all whitespace characters
+(global-set-key (kbd \"C-c w\") 'whitespace-mode)
+(windmove-default-keybindings)
+" 0 1 (fontified t) 1 4 (face font-lock-comment-delimiter-face fontified t) 4 12 (face font-lock-comment-face fontified t) 12 13 (fontified t) 13 24 (face font-lock-keyword-face fontified t) 24 25 (fontified t) 25 32 (face font-lock-constant-face fontified t) 32 35 (fontified t) 35 40 (face font-lock-builtin-face fontified t) 40 115 (fontified t) 115 118 (face font-lock-comment-delimiter-face fontified t) 118 177 (face font-lock-comment-face fontified t) 177 180 (face font-lock-comment-delimiter-face fontified t) 180 241 (face font-lock-comment-face fontified t) 241 242 (fontified t) 242 245 (face font-lock-comment-delimiter-face fontified t) 245 266 (face font-lock-comment-face fontified t) 266 269 (fontified t) 269 280 (face font-lock-keyword-face fontified t) 280 281 (fontified t) 281 291 (face font-lock-constant-face fontified t) 291 294 (fontified t) 294 299 (face font-lock-builtin-face fontified t) 299 330 (fontified t) 330 334 (face font-lock-keyword-face fontified t) 334 365 (fontified t) 365 368 (face font-lock-comment-delimiter-face fontified t) 368 386 (face font-lock-comment-face fontified t) 386 387 (fontified t) 387 398 (face font-lock-keyword-face fontified t) 398 399 (fontified t) 399 408 (face font-lock-constant-face fontified t) 408 411 (fontified t) 411 416 (face font-lock-builtin-face fontified t) 416 419 (fontified t) 419 426 (face font-lock-string-face fontified t) 426 478 (fontified t) 478 483 (face font-lock-string-face fontified t) 483 551 (fontified t) 551 553 (face font-lock-comment-delimiter-face fontified t) 553 589 (face font-lock-comment-face fontified t) 589 590 (fontified t) 590 593 (face font-lock-comment-delimiter-face fontified t) 593 652 (face font-lock-comment-face fontified t) 652 673 (fontified t) 673 680 (face font-lock-string-face fontified t) 680 731 (fontified t)) . 880) (undo-tree-id0 . -731) (undo-tree-id1 . -409) (undo-tree-id2 . -40) (undo-tree-id3 . -40) (undo-tree-id4 . -40) (undo-tree-id5 . -40) (undo-tree-id6 . -40) (undo-tree-id7 . -40) (undo-tree-id8 . -40) (undo-tree-id9 . -40) (undo-tree-id10 . -40) (undo-tree-id11 . -41) (undo-tree-id12 . -67) (undo-tree-id13 . -115) (undo-tree-id14 . -242) (undo-tree-id15 . -292) (undo-tree-id16 . -409) (undo-tree-id17 . -731) (undo-tree-id18 . -731) (undo-tree-id19 . -731) (undo-tree-id20 . -731) 1611) nil (26015 34022 917786 532000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1610 . 1611) (nil fontified nil 880 . 1611) (880 . 1611) (t 26015 34022 920157 763000)) nil (26015 34044 513971 93000) 0 nil])
+([nil nil ((#("
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+;; show unncessary whitespace that can mess up your diff
+(add-hook 'prog-mode-hook
+          (lambda () (interactive)
+            (setq show-trailing-whitespace 1)))
+
+;; use space to indent by default
+(setq-default indent-tabs-mode nil)
+
+;; set appearance of a tab that is represented by 4 spaces
+(setq-default tab-width 4)
+;; Compilation
+(global-set-key (kbd \"<f5>\") (lambda ()
+                               (interactive)
+                               (setq-local compilation-read-command nil)
+                               (call-interactively 'compile)))
+
+
+;; setup GDB
+(setq
+ ;; use gdb-many-windows by default
+ gdb-many-windows t
+
+ ;; Non-nil means display source file containing the main routine at startup
+ gdb-show-main t
+ )
+" 0 2 (fontified t) 2 10 (face font-lock-keyword-face fontified t) 10 12 (fontified t) 12 23 (face font-lock-function-name-face fontified t) 23 36 (fontified t) 36 39 (face font-lock-comment-delimiter-face fontified t) 39 93 (face font-lock-comment-face fontified t) 93 130 (fontified t) 130 136 (face font-lock-keyword-face fontified t) 136 141 (fontified t) 141 152 (face font-lock-keyword-face fontified t) 152 167 (fontified t) 167 171 (face font-lock-keyword-face fontified t) 171 203 (fontified t) 203 206 (face font-lock-comment-delimiter-face fontified t) 206 237 (face font-lock-comment-face fontified t) 237 238 (fontified t) 238 250 (face font-lock-keyword-face fontified t) 250 274 (fontified t) 274 277 (face font-lock-comment-delimiter-face fontified t) 277 333 (face font-lock-comment-face fontified t) 333 334 (fontified t) 334 346 (face font-lock-keyword-face fontified t) 346 360 (fontified t) 360 363 (face font-lock-comment-delimiter-face fontified t) 363 375 (face font-lock-comment-face fontified t) 375 396 (fontified t) 396 402 (face font-lock-string-face fontified t) 402 405 (fontified t) 405 411 (face font-lock-keyword-face fontified t) 411 447 (fontified t) 447 458 (face font-lock-keyword-face fontified t) 458 492 (fontified t) 492 502 (face font-lock-keyword-face fontified t) 502 598 (fontified t) 598 601 (face font-lock-comment-delimiter-face fontified t) 601 611 (face font-lock-comment-face fontified t) 611 612 (fontified t) 612 616 (face font-lock-keyword-face fontified t) 616 618 (fontified t) 618 621 (face font-lock-comment-delimiter-face fontified t) 621 653 (face font-lock-comment-face fontified t) 653 675 (fontified t) 675 678 (face font-lock-comment-delimiter-face fontified t) 678 751 (face font-lock-comment-face fontified t) 751 771 (fontified t)) . 108) (undo-tree-id0 . -1) (undo-tree-id1 . -119) (undo-tree-id2 . -273) (undo-tree-id3 . -460) (undo-tree-id4 . -653) (undo-tree-id5 . -771) (undo-tree-id6 . -771) (undo-tree-id7 . -771) (undo-tree-id8 . -771) (undo-tree-id9 . -771) (undo-tree-id10 . -771) (undo-tree-id11 . -771) (undo-tree-id12 . -771) (undo-tree-id13 . -771) (undo-tree-id14 . -771) (undo-tree-id15 . -768) (undo-tree-id16 . -751) (undo-tree-id17 . -673) (undo-tree-id18 . -611) (undo-tree-id19 . -533) (undo-tree-id20 . -460) (undo-tree-id21 . -375) (undo-tree-id22 . -274) (undo-tree-id23 . -274) (undo-tree-id24 . -274) (undo-tree-id25 . -771)) nil (26015 34044 513967 592000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 878 . 879) (nil fontified nil 108 . 879) (108 . 879) (t 26015 34044 516823 903000)) nil (26015 34068 522437 439000) 0 nil])
+([nil nil ((#("(setq gc-cons-threshold 100000000)
+
+(setq inhibit-startup-message t)
+
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+;; show unncessary whitespace that can mess up your diff
+(add-hook 'prog-mode-hook
+          (lambda () (interactive)
+            (setq show-trailing-whitespace 1)))
+
+;; use space to indent by default
+(setq-default indent-tabs-mode nil)
+
+;; set appearance of a tab that is represented by 4 spaces
+(setq-default tab-width 4)
+;; Compilation
+(global-set-key (kbd \"<f5>\") (lambda ()
+                               (interactive)
+                               (setq-local compilation-read-command nil)
+                               (call-interactively 'compile)))
+
+
+;; setup GDB
+(setq
+ ;; use gdb-many-windows by default
+ gdb-many-windows t
+
+ ;; Non-nil means display source file containing the main routine at startup
+ gdb-show-main t
+ )
+
+
+;; company
+(use-package company
+  :init
+  (global-company-mode 1)
+  (delete 'company-semantic company-backends))
+
+;; (define-key c-mode-map  [(control tab)] 'company-complete)
+;; (define-key c++-mode-map  [(control tab)] 'company-complete)
+
+;; Package: projejctile
+
+
+(use-package projectile
+  :init
+  (projectile-global-mode)
+  (setq projectile-enable-caching t))
+;; Package zygospore
+(use-package zygospore
+  :bind ((\"C-x 1\" . zygospore-toggle-delete-other-windows)
+         (\"RET\" .   newline-and-indent)))
+
+                                        ; automatically indent when press RET
+
+;; activate whitespace-mode to view all whitespace characters
+(global-set-key (kbd \"C-c w\") 'whitespace-mode)
+(windmove-default-keybindings)
+" 0 1 (fontified t) 1 5 (face font-lock-keyword-face fontified t) 5 37 (fontified t) 37 41 (face font-lock-keyword-face fontified t) 41 69 (fontified t) 69 71 (fontified t ws-butler-chg chg) 71 79 (face font-lock-keyword-face fontified t ws-butler-chg chg) 79 81 (fontified t ws-butler-chg chg) 81 92 (face font-lock-function-name-face fontified t ws-butler-chg chg) 92 105 (fontified t ws-butler-chg chg) 105 108 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 108 162 (face font-lock-comment-face fontified t ws-butler-chg chg) 162 199 (fontified t ws-butler-chg chg) 199 205 (face font-lock-keyword-face fontified t ws-butler-chg chg) 205 210 (fontified t ws-butler-chg chg) 210 221 (face font-lock-keyword-face fontified t ws-butler-chg chg) 221 236 (fontified t ws-butler-chg chg) 236 240 (face font-lock-keyword-face fontified t ws-butler-chg chg) 240 272 (fontified t ws-butler-chg chg) 272 275 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 275 306 (face font-lock-comment-face fontified t ws-butler-chg chg) 306 307 (fontified t ws-butler-chg chg) 307 319 (face font-lock-keyword-face fontified t ws-butler-chg chg) 319 343 (fontified t ws-butler-chg chg) 343 346 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 346 402 (face font-lock-comment-face fontified t ws-butler-chg chg) 402 403 (fontified t ws-butler-chg chg) 403 415 (face font-lock-keyword-face fontified t ws-butler-chg chg) 415 429 (fontified t ws-butler-chg chg) 429 432 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 432 444 (face font-lock-comment-face fontified t ws-butler-chg chg) 444 465 (fontified t ws-butler-chg chg) 465 471 (face font-lock-string-face fontified t ws-butler-chg chg) 471 474 (fontified t ws-butler-chg chg) 474 480 (face font-lock-keyword-face fontified t ws-butler-chg chg) 480 516 (fontified t ws-butler-chg chg) 516 527 (face font-lock-keyword-face fontified t ws-butler-chg chg) 527 561 (fontified t ws-butler-chg chg) 561 571 (face font-lock-keyword-face fontified t ws-butler-chg chg) 571 667 (fontified t ws-butler-chg chg) 667 670 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 670 680 (face font-lock-comment-face fontified t ws-butler-chg chg) 680 681 (fontified t ws-butler-chg chg) 681 685 (face font-lock-keyword-face fontified t ws-butler-chg chg) 685 687 (fontified t ws-butler-chg chg) 687 690 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 690 722 (face font-lock-comment-face fontified t ws-butler-chg chg) 722 744 (fontified t ws-butler-chg chg) 744 747 (face font-lock-comment-delimiter-face fontified t ws-butler-chg chg) 747 820 (face font-lock-comment-face fontified t ws-butler-chg chg) 820 839 (fontified t ws-butler-chg chg) 839 840 (rear-nonsticky t fontified t ws-butler-chg chg) 840 841 (fontified t) 841 842 (fontified t) 842 845 (face font-lock-comment-delimiter-face fontified t) 845 853 (face font-lock-comment-face fontified t) 853 854 (fontified t) 854 865 (face font-lock-keyword-face fontified t) 865 866 (fontified t) 866 873 (face font-lock-constant-face fontified t) 873 876 (fontified t) 876 881 (face font-lock-builtin-face fontified t) 881 956 (fontified t) 956 959 (face font-lock-comment-delimiter-face fontified t) 959 1018 (face font-lock-comment-face fontified t) 1018 1021 (face font-lock-comment-delimiter-face fontified t) 1021 1082 (face font-lock-comment-face fontified t) 1082 1083 (fontified t) 1083 1086 (face font-lock-comment-delimiter-face fontified t) 1086 1107 (face font-lock-comment-face fontified t) 1107 1110 (fontified t) 1110 1121 (face font-lock-keyword-face fontified t) 1121 1122 (fontified t) 1122 1132 (face font-lock-constant-face fontified t) 1132 1135 (fontified t) 1135 1140 (face font-lock-builtin-face fontified t) 1140 1171 (fontified t) 1171 1175 (face font-lock-keyword-face fontified t) 1175 1206 (fontified t) 1206 1209 (face font-lock-comment-delimiter-face fontified t) 1209 1227 (face font-lock-comment-face fontified t) 1227 1228 (fontified t) 1228 1239 (face font-lock-keyword-face fontified t) 1239 1240 (fontified t) 1240 1249 (face font-lock-constant-face fontified t) 1249 1252 (fontified t) 1252 1257 (face font-lock-builtin-face fontified t) 1257 1260 (fontified t) 1260 1267 (face font-lock-string-face fontified t) 1267 1319 (fontified t) 1319 1324 (face font-lock-string-face fontified t) 1324 1392 (fontified t) 1392 1394 (face font-lock-comment-delimiter-face fontified t) 1394 1430 (face font-lock-comment-face fontified t) 1430 1431 (fontified t) 1431 1434 (face font-lock-comment-delimiter-face fontified t) 1434 1493 (face font-lock-comment-face fontified t) 1493 1514 (fontified t) 1514 1521 (face font-lock-string-face fontified t) 1521 1572 (fontified t)) . 39) (undo-tree-id0 . -343) (undo-tree-id1 . -1572) (undo-tree-id2 . -1431) (undo-tree-id3 . -69) (undo-tree-id4 . -69) (undo-tree-id5 . -69) (undo-tree-id6 . -69) (undo-tree-id7 . -69) (undo-tree-id8 . -69) (undo-tree-id9 . -69) (undo-tree-id10 . -69) (undo-tree-id11 . -69) (undo-tree-id12 . -840) (undo-tree-id13 . -841) (undo-tree-id14 . -841) (undo-tree-id15 . -841) (undo-tree-id16 . -841) (undo-tree-id17 . -841) (undo-tree-id18 . -841) (undo-tree-id19 . -841) (undo-tree-id20 . -841) (undo-tree-id21 . -841) (undo-tree-id22 . -820) (undo-tree-id23 . -680) (undo-tree-id24 . -667) (undo-tree-id25 . -665) (undo-tree-id26 . -484) (undo-tree-id27 . -343) (undo-tree-id28 . -343) (undo-tree-id29 . -270) (undo-tree-id30 . -270) (undo-tree-id31 . -270) (undo-tree-id32 . -270) (undo-tree-id33 . -270) (undo-tree-id34 . -270) (undo-tree-id35 . -261) (undo-tree-id36 . -261) (undo-tree-id37 . -261) (undo-tree-id38 . -261) (undo-tree-id39 . -261) (undo-tree-id40 . -261) (undo-tree-id41 . -261) (undo-tree-id42 . -272) (undo-tree-id43 . -402) (undo-tree-id44 . -602) (undo-tree-id45 . -665) (undo-tree-id46 . -667) (undo-tree-id47 . -722) (undo-tree-id48 . -837) (undo-tree-id49 . -874) (undo-tree-id50 . -1082) (undo-tree-id51 . -1168) (undo-tree-id52 . -1431) (undo-tree-id53 . -69) (undo-tree-id54 . -1572) (undo-tree-id55 . -1572) (undo-tree-id56 . -1572) (undo-tree-id57 . -1572) 1611) nil (26015 34068 522433 654000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 1610 . 1611) (nil fontified nil 39 . 1611) (39 . 1611) (t 26015 34068 523489 990000)) nil (26015 34092 150435 398000) 0 nil])
+([nil nil ((75 . 77)) nil (26015 34092 150431 766000) 0 nil])
+([nil nil ((#(";" 0 1 (face font-lock-comment-delimiter-face fontified t)) . -75) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (#(";" 0 1 (face font-lock-comment-delimiter-face fontified t)) . -76) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) 77 (t 26015 34092 150156 90000)) nil (26015 34117 553027 590000) 0 nil])
+([nil nil ((20 . 21) (t 26015 34117 556822 151000)) nil (26016 39986 424672 62000) 0 nil])
+([nil nil ((1 . 2)) nil (26016 39986 424667 882000) 0 nil])
+([nil nil ((#(";" 0 1 (face font-lock-comment-delimiter-face fontified t)) . -1) (undo-tree-id3 . -1) 2 (t 26016 39986 426083 625000)) nil (26016 40121 253688 287000) 0 nil])
+([nil nil ((1 . 2)) nil (26016 40121 253687 357000) 0 nil])
+([nil nil ((#("
+" 0 1 (ws-butler-chg chg fontified t)) . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) 2) nil (26016 40121 253686 335000) 0 nil])
+([nil current ((#(";" 0 1 (face font-lock-comment-delimiter-face fontified t)) . -20) (undo-tree-id0 . -1) 21) nil (26016 40121 253682 281000) 0 nil])
+nil

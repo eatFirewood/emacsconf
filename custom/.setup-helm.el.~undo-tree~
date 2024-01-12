@@ -1,0 +1,6 @@
+(undo-tree-save-format-version . 1)
+"083906f546c78e3b25f3c6f9a7893c7f2a890050"
+[nil nil nil nil (26015 38518 971965 439000) 0 nil]
+([nil current ((#("    (require 'helm-config)
+" 0 5 (fontified t) 5 12 (face font-lock-keyword-face fontified t) 12 14 (fontified t) 14 25 (face font-lock-constant-face fontified t) 25 27 (fontified t)) . 36) (undo-tree-id0 . -27) (t 26015 23178 267086 752000)) nil (26015 38518 971962 963000) 0 nil])
+nil

@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file-155d56c33340
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155d56c33340"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155d56c33320"
+      :major-mode c++-mode
+      :tags 
+        '( ("QLabel" include (:system-flag t) nil [1 18])
+            ("main" function (:type "int") nil [19 72]))          
+      :file "a.cpp"
+      :pointmax 73
+      :fsize 69
+      :lastmodtime '(26015 54120 819674 125000)
+      :unmatched-syntax nil))
+  :file "!home!wt!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

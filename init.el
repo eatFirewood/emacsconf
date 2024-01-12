@@ -1,11 +1,12 @@
 (require 'package)
 (add-to-list 'package-archives
-         '("melpa" . "http://melpa.org/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 
 (package-initialize)
+(setq async-bytecomp-allowed-packages '(all))
 
 (when (not package-archive-contents)
-    (package-refresh-contents))
+  (package-refresh-contents))
 
 (unless (package-installed-p 'use-package)
   (package-install 'use-package))
@@ -16,14 +17,22 @@
 (add-to-list 'load-path "~/.emacs.d/custom")
 
 (require 'setup-general)
+
+
 (if (version< emacs-version "24.4")
     (require 'setup-ivy-counsel)
   (require 'setup-helm)
-  (require 'setup-helm-gtags))
-;; (require 'setup-ggtags)
+  (require 'setup-helm-gtags)
+  )
+
+;;(require 'setup-ggtags)
 (require 'setup-cedet)
 (require 'setup-editing)
+(require 'setup-myui)
 
+(require 'setup-company)
+
+;;(require 'setup-helm-gtags)
 
 
 ;; function-args
@@ -36,9 +45,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(company-c-headers-path-system
+   '("/usr/include/" "/usr/local/include/" "/usr/include/c++/13.2.1/"))
  '(package-selected-packages
-   (quote
-    (zygospore helm-gtags helm yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu))))
+   '(company-c-headers sr-speedbar ggtags zygospore yasnippet ws-butler volatile-highlights use-package undo-tree iedit dtrt-indent counsel-projectile company clean-aindent-mode anzu sr-sidebar))
+
+ )
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

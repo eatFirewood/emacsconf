@@ -1,0 +1,22 @@
+(undo-tree-save-format-version . 1)
+"da39a3ee5e6b4b0d3255bfef95601890afd80709"
+[nil nil nil nil (26015 59993 903544 298000) 0 nil]
+([nil nil ((1 . 2) (t . -1)) nil (26015 59993 903543 502000) 0 nil])
+([nil nil ((#("#" 0 1 (ws-butler-chg chg fontified t)) . -1) (undo-tree-id19 . -1) 2) nil (26015 59993 903542 893000) 0 nil])
+([nil nil ((1 . 2)) nil (26015 59993 903542 176000) 0 nil])
+([nil nil ((2 . 10)) nil (26015 59993 903541 923000) 0 nil])
+([nil nil ((10 . 12)) nil (26015 59993 903541 343000) 0 nil])
+([nil nil ((11 . 15)) nil (26015 59993 903540 922000) 0 nil])
+([nil nil ((15 . 16)) nil (26015 59993 903540 481000) 0 nil])
+([nil nil ((16 . 17)) nil (26015 59993 903539 941000) 0 nil])
+([nil nil ((17 . 18)) nil (26015 59993 903539 367000) 0 nil])
+([nil nil ((18 . 19)) nil (26015 59993 903539 34000) 0 nil])
+([nil nil ((#(">" 0 1 (face font-lock-string-face ws-butler-chg chg fontified t)) . 19) (undo-tree-id18 . -1)) nil (26015 59993 903538 624000) 0 nil])
+([nil nil ((#("#include <iostream" 0 1 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 1 2 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 2 3 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 3 4 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 4 5 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 5 6 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 6 7 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 7 8 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 8 9 (ws-butler-chg chg fontified t) 9 10 (face font-lock-string-face ws-butler-chg chg fontified t) 10 11 (face font-lock-string-face ws-butler-chg chg fontified t) 11 12 (face font-lock-string-face ws-butler-chg chg fontified t) 12 13 (face font-lock-string-face ws-butler-chg chg fontified t) 13 14 (face font-lock-string-face ws-butler-chg chg fontified t) 14 15 (face font-lock-string-face ws-butler-chg chg fontified t) 15 16 (face font-lock-string-face ws-butler-chg chg fontified t) 16 17 (face font-lock-string-face ws-butler-chg chg fontified t) 17 18 (face font-lock-string-face ws-butler-chg chg fontified t)) . 1) (undo-tree-id15 . -18) (undo-tree-id16 . -8) (undo-tree-id17 . -8)) nil (26015 59993 903537 249000) 0 nil])
+([nil nil ((1 . 7)) nil (26015 59993 903535 729000) 0 nil])
+([nil nil ((1 . 2) (#("e" 0 1 (ws-butler-chg chg fontified t)) . -1) (undo-tree-id9 . -1) (#("m" 0 1 (ws-butler-chg chg fontified t)) . -2) (undo-tree-id10 . -1) (#("a" 0 1 (ws-butler-chg chg fontified t)) . -3) (undo-tree-id11 . -1) (#("c" 0 1 (ws-butler-chg chg fontified t)) . -4) (undo-tree-id12 . -1) (#("s" 0 1 (ws-butler-chg chg fontified t)) . -5) (undo-tree-id13 . -1) (#(" " 0 1 (ws-butler-chg chg fontified t)) . -6) (undo-tree-id14 . -1) 7) nil (26015 59993 903534 537000) 0 nil])
+([nil nil ((2 . 10)) nil (26015 59993 903529 973000) 0 nil])
+([nil nil ((10 . 12)) nil (26015 59993 903529 374000) 0 nil])
+([nil nil ((11 . 16)) nil (26015 59993 903528 491000) 0 nil])
+([nil current ((#("#include <ioste>" 0 1 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 1 2 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 2 3 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 3 4 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 4 5 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 5 6 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 6 7 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 7 8 (face font-lock-preprocessor-face ws-butler-chg chg fontified t) 8 9 (ws-butler-chg chg fontified t) 9 10 (face font-lock-string-face category c-<-as-paren-syntax ws-butler-chg chg fontified t) 10 11 (face font-lock-string-face ws-butler-chg chg fontified t) 11 12 (face font-lock-string-face ws-butler-chg chg fontified t) 12 13 (face font-lock-string-face ws-butler-chg chg fontified t) 13 14 (face font-lock-string-face ws-butler-chg chg fontified t) 14 15 (face font-lock-string-face ws-butler-chg chg fontified t) 15 16 (face font-lock-string-face category c->-as-paren-syntax ws-butler-chg chg fontified t)) . 1) (undo-tree-id0 . -16) (undo-tree-id1 . -8) (undo-tree-id2 . -8) (undo-tree-id3 . -11) (undo-tree-id4 . -12) (undo-tree-id5 . -13) (undo-tree-id6 . -14) (undo-tree-id7 . -15) (undo-tree-id8 . -16)) nil (26015 59993 903525 849000) 0 nil])
+nil

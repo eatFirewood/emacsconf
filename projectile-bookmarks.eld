@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/Documents/armasm/" "~/emacstest/" "~/Documents/book/" "~/backupemacs.d/" "~/Documents/")

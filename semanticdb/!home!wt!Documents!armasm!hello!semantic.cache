@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file-156b8be878fc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156b8be878fc"
+  :tables
+  (list
+
+    (semanticdb-table "semanticdb-table-156b8be87936"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [21 41])
+            ("AA" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [53 60])
+                    ("function1" function (:type "void") (reparse-symbol classsubparts) [63 115])
+                    ("function2" function (:type "void") (reparse-symbol classsubparts) [118 171])
+                    ("function3" function (:type "void") (reparse-symbol classsubparts) [174 194]))                  
+                :type "class")
+                nil [43 197])
+            ("main" function (:type "int") nil [199 213]))          
+      :file "aaaasdf"
+      :pointmax 214
+      :fsize 213
+      :lastmodtime '(26015 47831 683162 429000)
+      :unmatched-syntax nil))
+  :file "!home!wt!Documents!armasm!hello!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

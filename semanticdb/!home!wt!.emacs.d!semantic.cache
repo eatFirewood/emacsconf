@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file-156d4b45ede0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156d4b45ede0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156d4b45edc0"
+      :major-mode c++-mode
+      :tags 
+        '( ("iost" include (:system-flag t) nil [1 16]))          
+      :file "a.cpp"
+      :pointmax 16
+      :fsize 0
+      :lastmodtime '(26015 59993 902861 451000)
+      :unmatched-syntax nil))
+  :file "!home!wt!.emacs.d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
